@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.dashboard.DashFragment">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/white">
+
+   <ImageView
+       android:id="@+id/we"
+       android:layout_width="wrap_content"
+       android:layout_height="248dp"
+       android:scaleType="fitXY"
+       android:src="@drawable/woman" />
+
+   <LinearLayout
+       android:orientation="vertical"
+      android:layout_marginTop="250dp"
+       android:layout_width="match_parent"
+       android:layout_height="499dp"
+       android:layout_below="@+id/we">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="bSAFE"
+          android:textSize="70dp"
+          android:textStyle="bold"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Your Privacy Our Concern..."
+          android:textSize="30dp"
+          android:textColor="@color/black"
+          android:textStyle="italic"/>
+
+      <TextView
+          android:paddingTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          android:text="Here are the main features of this app:" />
+
+      <TextView
+          android:paddingTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:text="1.You can call your family in just one tap." />
+      <TextView
+          android:paddingTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:text="2.This App includes some tips that You can follow if you face thse types of situation." />
+      <TextView
+          android:paddingTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:text="3.Go to Dahboard and you will find helpline number here." />
+   </LinearLayout>
+   </ScrollView>
+
+</FrameLayout>
