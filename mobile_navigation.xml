@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.bsafeapp.ui.dashboard.DashFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dash" />
+
+    <fragment
+        android:id="@+id/nav_laws"
+        android:name="com.example.bsafeapp.ui.laws.LawsFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dash" />
+
+    <fragment
+        android:id="@+id/nav_tips"
+        android:name="com.example.bsafeapp.ui.tips.TipsFragment"
+        android:label="Tips"
+        tools:layout="@layout/fragment_tips" />
+
+    <fragment
+        android:id="@+id/nav_escape"
+        android:name="com.example.bsafeapp.ui.escape.EscapeFragment"
+        android:label="Escape"
+        tools:layout="@layout/fragment_escape" />
+
+    <fragment
+        android:id="@+id/nav_defence"
+        android:name="com.example.bsafeapp.ui.defence.DefenceFragment"
+        android:label="Self-Defence"
+        tools:layout="@layout/fragment_defence" />
+
+
+</navigation>
